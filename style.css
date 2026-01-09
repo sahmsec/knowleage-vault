@@ -7,6 +7,13 @@
     color: #30B868 ;
  }
 
+ .color-ash{
+    color: #627382 ;
+ }
+ .size-medium{
+    font-weight: 500;
+ }
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -150,10 +157,6 @@ nav a:hover{
     
 }
 
-.section-heading p{
-    color: #627382;
-}
-
 .notes-container .card-container{
     display: flex;
     gap: 24px;
@@ -164,6 +167,12 @@ nav a:hover{
     border-radius: 12px;
     box-shadow: 0 10px 40px #00000010;
     text-align: center;
+
+}
+
+.notes-card:hover{
+    cursor: pointer;
+    background-color: #e8e8e8;
 
 }
 
@@ -183,9 +192,36 @@ nav a:hover{
 
 .solution-container{
     border: 1px solid red;
-    margin: 120px;
+    margin: 0 auto;
+    max-width: 1360px;
     display: flex;
     align-items: center;
     gap: 60px;
     
 }
+
+.solution-image{
+    max-width: 100%;
+}
+
+.solution-content{
+    max-width: 600px;
+}
+.solution-content h2{
+    margin: 18px 0px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.points{
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.points p {
+    display: flex; 
+    gap: 12px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
