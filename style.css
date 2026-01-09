@@ -43,7 +43,7 @@ h4{
     gap: 32px;
 }
 
-nav .logo{
+ .logo img{
     max-width: 140px;
 }
 
@@ -104,21 +104,29 @@ nav a:hover{
     padding: 0 60px;
     display: flex;
     align-items: center;
+    
 }
 
 .banner-content{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    /* border: 1px solid red; */
 }
 
 .banner-content .banner-tag{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     background: #FFFFFF;
+    max-width: fit-content;
+    margin: 0 auto;
     padding: 8px 12px;
     border-radius: 1000px;
     color: #30B868;
     margin-bottom: 20px;
+    
 
 }
 
@@ -127,9 +135,20 @@ nav a:hover{
     line-height: 70px;
     font-weight: 700;
     margin-bottom: 20px;
+
 }
 .banner-content p {
     color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.green-dot{
+    width: 8px;
+    height: 8px;
+    background: #30B868;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .banner-button{
@@ -261,3 +280,44 @@ nav a:hover{
     font-size: 14px;
 }
 
+footer{
+    margin-top: 120px;
+    background-color: #001931;
+    color: white;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 84px 120px;
+}
+
+.footer-right p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-right .social-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-icons i{
+    font-size: 20px;
+    color: #FFFFFF;}
+
+.social-icons i:hover{
+    color:#627382
+}
+
+.footer-bottom{
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    opacity: 0.6;
+}
