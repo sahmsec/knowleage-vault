@@ -156,6 +156,15 @@ nav a:hover{
     margin-bottom: 47px;
     
 }
+.section-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section-heading p{
+    color: #627382;
+}
+
 
 .notes-container .card-container{
     display: flex;
@@ -186,7 +195,6 @@ nav a:hover{
 
 .notes-card p {
     margin-top: 16px;
-    color: #627382;
 }
 
 
@@ -207,11 +215,6 @@ nav a:hover{
 .solution-content{
     max-width: 600px;
 }
-.solution-content h2{
-    margin: 18px 0px;
-    font-size: 48px;
-    font-weight: 700;
-}
 
 .points{
     font-weight: 500;
@@ -224,4 +227,5 @@ nav a:hover{
     margin-bottom: 16px;
     color: #001931;
 }
+
 
