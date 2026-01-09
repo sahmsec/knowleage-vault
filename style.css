@@ -7,7 +7,7 @@
     color: #30B868 ;
  }
 
- .color-ash{
+ .color-ash p{
     color: #627382 ;
  }
  .size-medium{
@@ -199,13 +199,13 @@ nav a:hover{
 
 
 .solution-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     max-width: 1360px;
     display: flex;
     align-items: center;
-    gap: 60px;
-    
+    gap: 60px; 
+    border-radius: 10px;
 }
 
 .solution-image{
@@ -228,4 +228,36 @@ nav a:hover{
     color: #001931;
 }
 
+
+#early-access{
+    background: white;
+    margin-top: 100px;
+}
+
+#early-access .access-container{
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 10px;
+}
+
+.access-container h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.access-container p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.access-container .btn{
+    margin-bottom: 18px;
+}
+.access-note{
+    margin-top: 20px;
+    font-size: 14px;
+}
 
